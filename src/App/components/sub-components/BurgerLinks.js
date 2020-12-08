@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import NavLinks from './NavLinks';
 import { BurgerStyles } from '../style';
 
-const StyledBurger = styled.div`${BurgerStyles}`
+const StyledBurger = styled.div`${BurgerStyles}`;
 
 
 const BurgerLinks = () => {
@@ -16,7 +16,7 @@ const BurgerLinks = () => {
                 <div />
                 <div />
             </StyledBurger>
-            <NavLinks open={open}/>
+            <NavLinks open={open} setOpen={setOpen} />
         </>
     )
 }

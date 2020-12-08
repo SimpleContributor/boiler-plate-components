@@ -28,15 +28,17 @@ function HomeContent() {
                         </p>
                     </div>
                 </div>
-                <Link className="project-link" to="/photos">
-                    <div className="button">Photos</div>
-                </Link>
-                <Link className="project-link" to="/">
-                    <div className="button">About</div>
-                </Link>
-                <Link className="project-link" to="/">
-                    <div className="button">Contact</div>
-                </Link>
+                <div className="link-container">
+                    <Link className="project-link" to="/photos">
+                        <div className="button">Photos</div>
+                    </Link>
+                    <Link className="project-link" to="/about">
+                        <div className="button">About</div>
+                    </Link>
+                    <Link className="project-link" to="/contact">
+                        <div className="button">Contact</div>
+                    </Link>
+                </div>
             </StyledWrapper>
             </>
         )

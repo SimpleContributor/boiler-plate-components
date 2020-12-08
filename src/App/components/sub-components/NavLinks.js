@@ -6,19 +6,23 @@ import { UlStyles } from '../style';
 const StyledUl = styled.ul`${UlStyles}`;
 
 //nav-list and nav-links
-const NavLinks = ({ open }) => {
+const NavLinks = ({ open, setOpen }) => {
+    function handleClick() {
+        setOpen(false)
+    }
+
     return (
-        <StyledUl className="nav-list" open={open}>
-            <Link to="/" className="nav-links">
+        <StyledUl open={open}>
+            <Link to="/" className="nav-links" onClick={handleClick}>
                 <li>Home</li>
             </Link>
-            <Link to="/photos" className="nav-links">
+            <Link to="/photos" className="nav-links" onClick={handleClick}>
                 <li>Photos</li>
             </Link>
-            <Link to="/" className="nav-links">
+            <Link to="/about" className="nav-links" onClick={handleClick}>
                 <li>About</li>
             </Link>
-            <Link to="/" className="nav-links">
+            <Link to="/contact" className="nav-links" onClick={handleClick}>
                 <li>Contact</li>
             </Link>
         </StyledUl>

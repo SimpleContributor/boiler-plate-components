@@ -14,9 +14,8 @@ width: 100vw;
 export const StyledWrapper = styled.div`
 justify-items: center;
 display: grid;
-grid-template-rows: auto 200px 200px;
 line-height: 1.6;
-padding: 150px 0 220px 0;
+padding: 150px 0 320px 0;
 width: 100%;
 
 
@@ -55,16 +54,22 @@ h1{
     text-align: center;
 }
 
+.link-container{
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-column-gap: 60px;
+    justify-content: center;
+    width: 100%;
+}
+
 .project-link{
     background-color: #888;
     border: 2px solid black;
     border-radius: 10px;
     color: #000;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    height: 130px;
+    height: 125px;
     text-decoration: none;
-    width: 455px;
+    width: 250px;
 }
 
 .project-link:hover{

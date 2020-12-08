@@ -9,8 +9,8 @@ class Navigation extends Component {
     render() {
         return (
             <StyledNav>
-                <Link to="/" className="img-link">
-                    <img alt="Letter C logo links to home" className="logo-img" src={Logo}></img>
+                <Link to="/">
+                    <img alt="Logo Link to the Home Page" className="logo-img" src={Logo}></img>
                 </Link>
                 <BurgerLinks />
             </StyledNav>

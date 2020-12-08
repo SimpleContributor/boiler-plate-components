@@ -13,21 +13,16 @@ left: 0;
 position: fixed;
 top: 0;
 width: 100%;
+justify-items: center;
+margin-left: auto;
 
-&:nth-child(1){
-    justify-items: end;
-}
-
-.img-link{
-    align-items: center;
-    display: grid;
-    height: 120px;
-    justify-items: center;
-    margin-left: auto;
-}
 
 .logo-img{
     height: 100px;
+}
+
+.burger-links{
+    
 }
 `;
 
@@ -78,7 +73,9 @@ export const UlStyles = css`
 display: grid;
 grid-template-columns: repeat(4, 120px);
 grid-column-gap: 50px;
+justify-self: end;
 list-style: none;
+margin-right: 24px;
 
 .nav-links{
     align-items: center;
@@ -104,6 +101,7 @@ li {
     grid-template-rows: repeat(4, 110px);
     min-height: 500px;
     justify-items: center;
+    margin-right: 0;
     padding-top: 36px;
     position: fixed;
     right: 0;
