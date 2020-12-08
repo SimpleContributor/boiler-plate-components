@@ -3,7 +3,7 @@ import Navigation from './sub-components/Navigation';
 import Footer from './sub-components/Footer';
 import HomeContent from './sub-components/HomeContent';
 
-import { StyledHome } from './style';
+import { StyledHome } from './homeStyle';
 
 class Home extends Component {
     render() {

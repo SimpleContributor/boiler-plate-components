@@ -12,7 +12,7 @@ const NavLinks = ({ open }) => {
             <Link to="/" className="nav-links">
                 <li>Home</li>
             </Link>
-            <Link to="/" className="nav-links">
+            <Link to="/photos" className="nav-links">
                 <li>Photos</li>
             </Link>
             <Link to="/" className="nav-links">

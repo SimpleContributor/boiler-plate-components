@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { StyledWrapper } from '../style';
+import { StyledWrapper } from '../homeStyle';
 
 function HomeContent() {
     // const [ishovered, setIshovered] = useState(false);
@@ -28,7 +28,7 @@ function HomeContent() {
                         </p>
                     </div>
                 </div>
-                <Link className="project-link" to="/">
+                <Link className="project-link" to="/photos">
                     <div className="button">Photos</div>
                 </Link>
                 <Link className="project-link" to="/">
