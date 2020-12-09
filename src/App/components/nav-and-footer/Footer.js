@@ -2,7 +2,7 @@ import React from 'react';
 import github from '../Images/github.png';
 import twitter from '../Images/twitter.png';
 import linkedin from '../Images/linkedin.png';
-import { StyledFooter } from '../style';
+import { StyledFooter } from './style';
 
 const Footer = () => {
 

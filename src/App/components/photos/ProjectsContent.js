@@ -1,7 +1,7 @@
 import React from 'react';
 import projectPhotos from '../../objects/photosObject';
-import PhotoTile from '../sub-components/PhotoTile';
-import { ProjectContainer } from '../photosStyle';
+import PhotoTile from './PhotoTile';
+import { ProjectContainer } from './photosStyle';
 
 const ProjectsContent = () => {
     const renderedList = projectPhotos.map((photo) => {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import HomeContent from './sub-components/HomeContent';
+import HomeContent from './HomeContent';
 
 import { StyledHome } from './homeStyle';
 

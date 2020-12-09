@@ -1,34 +1,6 @@
 import React, { Component } from 'react';
 import BabyPhoto from '../Images/BabyPhoto.jpg';
-import styled from 'styled-components';
-
-const AboutContainer = styled.div`
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-
-    h1{
-        font-size: 3rem;
-        margin-top: 0;
-    }
-
-    .about-para{
-        font-size: 1.6rem;
-        margin: auto;
-        width: 80%
-    }
-
-    .about-photo{
-        display: grid;
-        font-size: 1.4rem;
-        height: 200px;
-        justify-content: start;
-    }
-
-    img{
-        border-radius: 10px;
-        height: 300px;
-    }
-`;
+import { AboutContainer } from './aboutStyles';
 
 
 class AboutContent extends Component {

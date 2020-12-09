@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import NavLinks from './NavLinks';
-import { BurgerStyles } from '../style';
+import { BurgerStyles } from './style';
 
 const StyledBurger = styled.div`${BurgerStyles}`;
 

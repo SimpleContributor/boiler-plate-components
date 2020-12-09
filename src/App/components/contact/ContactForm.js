@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { FormContainer } from '../contactStyles';
+import { FormContainer } from './contactStyles';
 
 
 

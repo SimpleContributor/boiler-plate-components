@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { StyledWrapper } from '../homeStyle';
+import { StyledWrapper } from './homeStyle';
 
 function HomeContent() {
     // const [ishovered, setIshovered] = useState(false);

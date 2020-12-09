@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
-import Navigation from './components/sub-components/Navigation';
-import Footer from './components/sub-components/Footer';
-import Home from './components/Home';
-import Photos from './components/Photos';
-import About from './components/About';
-import Contact from './components/Contact';
-import ScrollToTop from './components/sub-components/ScrollToTop';
+import Navigation from './components/nav-and-footer/Navigation';
+import Footer from './components/nav-and-footer/Footer';
+import Home from './components/home/Home';
+import Photos from './components/photos/Photos';
+import About from './components/about/About';
+import Contact from './components/contact/Contact';
+import ScrollToTop from './components/ScrollToTop';
 import './app.css';
 
 class App extends Component {

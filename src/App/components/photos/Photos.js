@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ProjectsContent from './sub-components/ProjectsContent';
+import ProjectsContent from './ProjectsContent';
 import { ProjectsWrapper } from './photosStyle';
 
 class Projects extends Component {

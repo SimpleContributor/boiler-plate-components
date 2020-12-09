@@ -1,5 +1,5 @@
 import React from 'react';
-import ContactForm from './sub-components/ContactForm';
+import ContactForm from './ContactForm';
 import { ContactWrapper } from './contactStyles';
 
 const Contact = () => {

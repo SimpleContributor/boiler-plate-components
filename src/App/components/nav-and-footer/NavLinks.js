@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import { UlStyles } from '../style';
+import { UlStyles } from './style';
 
 const StyledUl = styled.ul`${UlStyles}`;
 

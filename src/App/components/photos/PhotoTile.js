@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyledTile } from '../photosStyle';
+import { StyledTile } from './photosStyle';
 
 const PhotoTile = ({ photo }) => {
     return (
